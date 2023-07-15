@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="getMenu()" onclick="handleOrder()" >
+
+    <div id="container" class="container">
+        <div id="detail">
+            <div >
+                <img id="logo" src="logo.jpg" alt="logo">
+               <div id="first">
+                <h2>My Restarunt Menu</h2>
+                <h3>Foodies Welcome Here</h3>
+               </div>
+            </div>
+            <div id="second">
+                <h2>Quick Links</h2>
+                <ol type="1">
+                    <li>Home</li>
+                    <li>Your Orders</li>
+                    <li>Wallet</li>
+                    <li>Profile</li>
+                    <li>Logout</li>
+                </ol>
+            </div>
+            <div id="third">
+                <h2>More About Us</h2>
+                <ol>
+                    <li>Our blog</li>
+                    <li>Upcomming Dishes</li>
+                    <li>Our Story</li>
+                    <li>Scoial Media Links</li>
+                </ol>
+            </div>
+        </div>
+        <div id="part">
+
+           
+
+            <div id="nav">
+                <nav id="navbar">
+                   
+                    <div id="inputs">
+                        <input type="text" placeholder="Search here" id="query" oninput="search()">
+                       
+                    </div>
+                    <div id="profiles">
+                         <button id="signup">SignUp</button>
+                         <button>Login</button>
+                         <img id = "navlogo"src="logo.jpg" alt="">
+                    </div>
+            
+                </nav>
+             </div>
+
+           
+
+
+             <div>
+                <div id="banner">
+                     <img src="banner.png" alt="">
+                </div>
+                <h1 id="menuBar">Menu:</h1>
+                 
+                <ul id="menu"></ul>
+             </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
